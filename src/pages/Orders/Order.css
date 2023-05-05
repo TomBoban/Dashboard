@@ -1,0 +1,33 @@
+.rs-pagination-group-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.tree-toggle {
+    cursor: pointer;
+}
+
+
+.MuiTableRow-root .css-1q1u3t4-MuiTableRow-root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e0e0e0;
+}
+
+.save-button {
+    margin: 1rem;
+    background-color: #111411;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
