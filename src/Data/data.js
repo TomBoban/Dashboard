@@ -25,7 +25,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     status: "New 2",
     amount_str: "3000",
     customerName: "punjj",
@@ -50,7 +50,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -75,7 +75,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -100,7 +100,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 5,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -125,7 +125,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 6,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -150,7 +150,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 7,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -175,7 +175,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 8,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -200,7 +200,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 9,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -225,7 +225,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 10,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -250,7 +250,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 11,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
@@ -275,7 +275,7 @@ export const temp = [
     ],
   },
   {
-    id: 1,
+    id: 12,
     status: "New 4",
     amount_str: "5000",
     customerName: "Pine",
