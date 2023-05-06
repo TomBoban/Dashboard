@@ -1,5 +1,10 @@
-.toolbar-container {
+.nav_bar {
     background: rgb(34, 34, 34) !important;
     padding: 1rem !important;
 
+}
+.login_btn{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
 }

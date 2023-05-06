@@ -31,3 +31,11 @@
     margin-top: 8px;
     cursor: pointer;
 }
+
+.order_head {
+    background: #e8e8e8;
+}
+
+.ion-page {
+    justify-content: flex-start !important;
+}

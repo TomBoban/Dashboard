@@ -36,39 +36,43 @@ const Login = () => {
 
   return (
     <IonPage>
-      <IonContent className="login-content">
-        <div className="login-form">
-          <h1>Login User</h1>
-          <form onSubmit={handleSubmit}>
-            <IonInput
-              type="email"
-              placeholder="Email"
-              value={email}
-              onIonChange={(e) => setEmail(e.target.value)}
-              required
-            ></IonInput>
-            <IonInput
-              type="password"
-              placeholder="Password"
-              value={password}
-              onIonChange={(e) => setPassword(e.target.value)}
-              required
-            ></IonInput>
-            <IonButton
-              type="submit"
-              expand="full"
-              disabled={isLoading}
-              className="login-button"
-            >
-              {isLoading ? "Logging in..." : "Login"}
-            </IonButton>
-          </form>
-          {error && <IonText color="danger">{error}</IonText>}
-        </div>
-        <div className="register-section">
-          <p>
-            <Link className="link" to="/register">Don't have an account? Register Now</Link>
-          </p>
+      <IonContent >
+        <div className="login_body">
+          <div className="login-form">
+            <h1>Please Login In </h1>
+            <form onSubmit={handleSubmit}>
+              <IonInput
+                type="email"
+                placeholder="Email"
+                value={email}
+                onIonChange={(e) => setEmail(e.target.value)}
+                required
+              ></IonInput>
+              <IonInput
+                type="password"
+                placeholder="Password"
+                value={password}
+                onIonChange={(e) => setPassword(e.target.value)}
+                required
+              ></IonInput>
+              <IonButton
+                type="submit"
+                expand="full"
+                disabled={isLoading}
+                className="login-button"
+              >
+                {isLoading ? "Logging in..." : "Login"}
+              </IonButton>
+              <div className="register-section">
+                <p>
+                  <Link className="link" to="/register">
+                    Don't have an account? Register Now
+                  </Link>
+                </p>
+              </div>
+            </form>
+            {error && <IonText color="danger">{error}</IonText>}
+          </div>
         </div>
       </IonContent>
     </IonPage>
